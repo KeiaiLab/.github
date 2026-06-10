@@ -1,28 +1,44 @@
+<p align="center">
+  <a href="https://www.keiailab.com">
+    <img src="https://github.com/KeiaiLab.png" alt="Keiailab" width="96"/>
+  </a>
+</p>
+
 # KEIAILAB
 
-KEIAILAB is a Korean AI-systems lab that ships production AI, MLOps, and backend systems for enterprise teams.
+KEIAILAB is a Korean AI-systems lab building production AI, MLOps, backend systems, and Kubernetes-native data platforms for enterprise teams.
 
-We build and operate practical systems across LLM agents, GPU infrastructure, Kubernetes-native data platforms, backend/data systems, and secure enterprise delivery.
+> Public GitHub surface verified on 2026-06-11 KST: `KeiaiLab` exposes 10 public repositories, website `https://www.keiailab.com`, contact `info@keiailab.com`, and the organization location `Korea, South`.
 
-## Open Source
+## Current Public Surface
 
-Our public repositories are MIT-licensed and organized around production infrastructure, developer tooling, and applied AI systems.
-
-| Area | Repositories |
+| Area | Evidence-backed repositories |
 |---|---|
-| Kubernetes operators | [`mongodb-operator`](https://github.com/keiailab/mongodb-operator), [`postgres-operator`](https://github.com/keiailab/postgres-operator), [`valkey-operator`](https://github.com/keiailab/valkey-operator), [`operator-commons`](https://github.com/keiailab/operator-commons) |
-| AI and developer tooling | [`plexus`](https://github.com/keiailab/plexus), [`forgewise`](https://github.com/keiailab/forgewise), [`webEmbedding`](https://github.com/keiailab/webEmbedding) |
-| Business applications | [`OneERP`](https://github.com/keiailab/OneERP), [`LawManager`](https://github.com/keiailab/LawManager) |
+| Kubernetes data operators | [`mongodb-operator`](https://github.com/KeiaiLab/mongodb-operator), [`valkey-operator`](https://github.com/KeiaiLab/valkey-operator), [`postgres-operator`](https://github.com/KeiaiLab/postgres-operator), [`keiailab-commons`](https://github.com/KeiaiLab/keiailab-commons) |
+| AI and developer systems | [`plexus`](https://github.com/KeiaiLab/plexus), [`forgewise`](https://github.com/KeiaiLab/forgewise), [`webEmbedding`](https://github.com/KeiaiLab/webEmbedding) |
+| Business applications | [`OneERP`](https://github.com/KeiaiLab/OneERP), [`LawManager`](https://github.com/KeiaiLab/LawManager) |
+| Organization profile | [`.github`](https://github.com/KeiaiLab/.github) |
+
+## Data Operator Family
+
+The active operator family is written in Go and organized around Kubernetes-native database operations:
+
+| Repository | Current public description |
+|---|---|
+| [`mongodb-operator`](https://github.com/KeiaiLab/mongodb-operator) | Kubernetes Operator for MongoDB: ReplicaSet, Sharded Cluster, Backup/PITR, TLS, LDAP, Monitoring. |
+| [`valkey-operator`](https://github.com/KeiaiLab/valkey-operator) | Kubernetes Operator for Valkey: instances, clusters, backup/restore, TLS, monitoring. |
+| [`postgres-operator`](https://github.com/KeiaiLab/postgres-operator) | Kubernetes Operator for PostgreSQL: HA, backups, pooling, monitoring, and a self-built distributed SQL roadmap. |
+| [`keiailab-commons`](https://github.com/KeiaiLab/keiailab-commons) | Shared Go library for Kubernetes operator scaffolding. |
 
 ## What We Care About
 
-- Production AI that can be operated, observed, and recovered.
+- Production AI that can be operated, observed, recovered, and audited.
 - Kubernetes-native infrastructure with clear ownership and reliable automation.
-- Open-source tools with simple licensing, practical docs, and reproducible release paths.
+- Open-source repositories with practical documentation and reproducible release paths.
 - Enterprise delivery that respects security, compliance, and domain constraints.
 
 ## Links
 
 - Website: [keiailab.com](https://www.keiailab.com)
-- GitHub: [github.com/keiailab](https://github.com/keiailab)
+- GitHub: [github.com/KeiaiLab](https://github.com/KeiaiLab)
 - Contact: [info@keiailab.com](mailto:info@keiailab.com)
