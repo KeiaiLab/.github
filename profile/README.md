@@ -8,7 +8,7 @@
 
 KEIAILAB is a Korean AI-systems lab building production AI, MLOps, backend systems, and Kubernetes-native data platforms for enterprise teams.
 
-> Public GitHub surface verified on 2026-06-11 KST: `KeiaiLab` exposes 10 public repositories, website `https://www.keiailab.com`, contact `info@keiailab.com`, and the organization location `Korea, South`.
+> Public GitHub surface verified on 2026-07-20 KST: `KeiaiLab` exposes 13 public repositories, website `https://www.keiailab.com`, contact `info@keiailab.com`, and the organization location `Korea, South`.
 
 ## Current Public Surface
 
@@ -16,8 +16,9 @@ KEIAILAB is a Korean AI-systems lab building production AI, MLOps, backend syste
 |---|---|
 | Kubernetes data operators | [`mongodb-operator`](https://github.com/KeiaiLab/mongodb-operator), [`valkey-operator`](https://github.com/KeiaiLab/valkey-operator), [`postgres-operator`](https://github.com/KeiaiLab/postgres-operator), [`keiailab-commons`](https://github.com/KeiaiLab/keiailab-commons) |
 | AI and developer systems | [`plexus`](https://github.com/KeiaiLab/plexus), [`forgewise`](https://github.com/KeiaiLab/forgewise), [`webEmbedding`](https://github.com/KeiaiLab/webEmbedding) |
+| Node and hardware telemetry | [`nodevitals`](https://github.com/KeiaiLab/nodevitals) |
 | Business applications | [`OneERP`](https://github.com/KeiaiLab/OneERP), [`LawManager`](https://github.com/KeiaiLab/LawManager) |
-| Organization profile | [`.github`](https://github.com/KeiaiLab/.github) |
+| Organization assets | [`charts`](https://github.com/KeiaiLab/charts), [`.github`](https://github.com/KeiaiLab/.github) |
 
 ## Data Operator Family
 
