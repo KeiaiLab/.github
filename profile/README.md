@@ -8,13 +8,13 @@
 
 KEIAILAB is a Korean AI-systems lab building production AI, MLOps, backend systems, and Kubernetes-native data platforms for enterprise teams.
 
-> Public GitHub surface verified on 2026-07-20 KST: `KeiaiLab` exposes 11 public repositories, website `https://www.keiailab.com`, contact `info@keiailab.com`, and the organization location `Korea, South`.
+> Public GitHub surface verified on 2026-07-22 KST: `KeiaiLab` exposes 12 public repositories (11 open-source engineering projects listed below; `business_card` is a non-technical internal asset and is intentionally excluded), website `https://www.keiailab.com`, contact `info@keiailab.com`, and the organization location `Korea, South`.
 
 ## Current Public Surface
 
 | Area | Evidence-backed repositories |
 |---|---|
-| Kubernetes data operators | [`mongodb-operator`](https://github.com/KeiaiLab/mongodb-operator), [`valkey-operator`](https://github.com/KeiaiLab/valkey-operator), [`postgres-operator`](https://github.com/KeiaiLab/postgres-operator), [`keiailab-commons`](https://github.com/KeiaiLab/keiailab-commons) |
+| Kubernetes data operators | [`mongodb-operator`](https://github.com/KeiaiLab/mongodb-operator), [`valkey-operator`](https://github.com/KeiaiLab/valkey-operator), [`postgres-operator`](https://github.com/KeiaiLab/postgres-operator), [`qdrant-operator`](https://github.com/KeiaiLab/qdrant-operator), [`keiailab-commons`](https://github.com/KeiaiLab/keiailab-commons) |
 | AI and developer systems | [`webEmbedding`](https://github.com/KeiaiLab/webEmbedding) |
 | Node and hardware telemetry | [`nodevitals`](https://github.com/KeiaiLab/nodevitals) |
 | Business applications | [`OneERP`](https://github.com/KeiaiLab/OneERP), [`LawManager`](https://github.com/KeiaiLab/LawManager) |
@@ -29,6 +29,7 @@ The active operator family is written in Go and organized around Kubernetes-nati
 | [`mongodb-operator`](https://github.com/KeiaiLab/mongodb-operator) | Kubernetes Operator for MongoDB: ReplicaSet, Sharded Cluster, Backup/PITR, TLS, LDAP, Monitoring. |
 | [`valkey-operator`](https://github.com/KeiaiLab/valkey-operator) | Kubernetes Operator for Valkey: instances, clusters, backup/restore, TLS, monitoring. |
 | [`postgres-operator`](https://github.com/KeiaiLab/postgres-operator) | Kubernetes Operator for PostgreSQL: HA, backups, pooling, monitoring, and a self-built distributed SQL roadmap. |
+| [`qdrant-operator`](https://github.com/KeiaiLab/qdrant-operator) | Kubernetes Operator for Qdrant — declarative QdrantCluster provisioning, distributed (Raft) clusters, scale-out & rebalance roadmap. |
 | [`keiailab-commons`](https://github.com/KeiaiLab/keiailab-commons) | Shared Go library for Kubernetes operator scaffolding. |
 
 ## What We Care About
